@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Dimana Stoyanova',
+  description: "My Resume",
 };
 
 /**
@@ -108,12 +108,9 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Delft, The Netherlands', Icon: MapIcon},
+    {label: 'Interests', text: 'Yoga, Skiing, Reading novels', Icon: SparklesIcon},
+    {label: 'Study', text: 'Delft University of Technology', Icon: AcademicCapIcon},
   ],
 };
 
@@ -125,15 +122,15 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
+        name: 'Bulgarian',
+        level: 10,
+      },
+      {
         name: 'English',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
+        name: 'German',
         level: 3,
       },
     ],
@@ -143,11 +140,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 9,
+        level: 7,
       },
       {
         name: 'Typescript',
-        level: 7,
+        level: 6,
       },
       {
         name: 'GraphQL',
@@ -159,33 +156,16 @@ export const skills: SkillGroup[] = [
     name: 'Backend development',
     skills: [
       {
-        name: 'Node.js',
-        level: 8,
+        name: 'Java',
+        level: 9,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'Python',
+        level: 6,
       },
       {
         name: 'Golang',
         level: 4,
-      },
-    ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
       },
     ],
   },
